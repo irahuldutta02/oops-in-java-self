@@ -22,5 +22,6 @@ class EquilateralTriangle extends Triangle1 {
 public class MULTILEVELINHERITANCE {
 
 	public static void main(String[] args) {
+		
 	}
 }

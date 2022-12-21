@@ -9,7 +9,7 @@ class Shape2 {
   class Triangle2 extends Shape2 {
 
     public void area(int h, int b) {
-      System.out.println((1 / 2) * b * h);
+      System.out.println((0.5) * b * h);
     }
   }
 
@@ -20,5 +20,14 @@ class Shape2 {
     }
   }
 public class RUNTIMEPOLYMORPHISM {
-  public static void main(String[] args) {}
+  public static void main(String[] args) {
+	  Shape2 s1 = new Shape2();
+	  s1.area();
+	  Triangle2 s2 = new Triangle2();
+	  s2.area();
+	  s2.area(20,10);
+	  Circle2 s3 = new Circle2();
+	  s3.area();
+	  s3.area(10);
+  }
 }
