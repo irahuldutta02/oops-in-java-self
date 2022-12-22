@@ -1,6 +1,7 @@
 package new_package;
 
 class Shape {
+	
 
 	public void area() {
 		System.out.println("Displays Area of Shape");
