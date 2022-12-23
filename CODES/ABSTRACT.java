@@ -1,4 +1,3 @@
-package new_package;
 abstract class Animal {
 
   abstract void walk();

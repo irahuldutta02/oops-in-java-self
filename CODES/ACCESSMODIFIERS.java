@@ -1,4 +1,3 @@
-package new_package;
 class Account {
 
   public String name;

@@ -1,5 +1,3 @@
-package new_package;
-
  class Student2 {
 
 	String name;
